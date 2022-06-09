@@ -1,0 +1,592 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+{% load static %}
+<!DOCTYPE HTML>
+<html lang="zxx">
+
+<head>
+	<title>Solusi University</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Opsimathy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+<!--Second Template-->
+<link href="{% static 'extra/style.css' %}" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/bootstrap.css' %}">
+<!--Stylesheets-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/style.css' %}">
+<!--Responsive-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/responsive.css' %}">
+<!--Animation-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/animate.css' %}">
+<!--Prettyphoto-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/prettyPhoto.css' %}">
+<!--Font-Awesome-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/font-awesome.css' %}">
+<!--Owl-Slider-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/owl.carousel.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/owl.theme.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/owl.transitions.css' %}">
+
+<!--End Second template-->
+
+	<!-- Bootstrap Core CSS -->
+	<link href="{% static 'css/bootstrap.css' %}" rel='stylesheet' type='text/css' />
+	<link href="{% static 'css/style.css' %}" rel='stylesheet' type='text/css' />
+	<!-- font-awesome icons -->
+	<link href="{% static 'css/fontawesome-all.min.css' %}" rel='stylesheet' type='text/css'/>
+	<!-- //Custom Theme files -->
+	<!-- online fonts -->
+	<!-- titles -->
+	<link href="//fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+	<!-- body -->
+	<link href="//fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
+</head>
+<body>
+	<!-- header -->
+	<header>
+	<div class="top">
+			<div class="container">
+				<div class="t-op row">
+				<div class="col-sm-6 top-left">
+					<ul>
+						<li>
+							<span style="text-align: left;"><a href="{% static 'images/Application.docx' %}"><button class="btn btn-light">Apply now</button></a> </span>
+						</li>
+						<li>&nbsp;We Serve</li>
+						<li class="ml-3">
+						<i class="far fa-envelope"></i> <a href="mailto:pr@solusi.ac.zw">Click here for enquiries</a>
+					</li>
+						</ul>
+					</div>
+					<div class="col-sm-6 top-middle">
+						<ul>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+		<section class="container">
+            <div class="col-lg-3 col-sm-6">
+				<span><a href="{% url 'index' %}"><img  src="{% static 'images/logo.jpg' %}" width="300" height="130" alt="" class="center"></a></span>
+
+            </div>
+           <!-- <div class="col-lg-3 col-sm-6 ">
+                <article>
+                    <marquee behavior="scroll" direction="left">To Attain Excellence in All Aspects of University Life.</marquee>
+                    <marquee behavior="scroll" direction="right">Your scrolling text goes  </marquee>
+                    </article>
+            </div>-->
+            <div class="col-lg-3 col-sm-6 ">
+				<!--<img  src="{% static 'images/Solusi.png' %}" width="130" height="130" alt="" class="center">
+-->
+            </div>
+
+			<div class="col-lg-3 col-sm-6 ">
+				<!--<img  src="{% static 'images/Solusi.png' %}" width="130" height="130" alt="" class="center">
+-->
+            </div>
+
+            <div class="col-lg-3 col-sm-6 ">
+                
+				<img  src="{% static 'images/AAA.png' %}" width="160" height="130" alt="" class="center">
+
+            </div>
+		</section>
+
+		<section class="content">
+			<nav class="nav-area">
+				<ul>
+				  <li>
+					<a href="{% url 'alumini' %}">Alumini</a>
+				  </li>
+				  <li>
+					<a href="https://solusi-spot.blogspot.com/" target="_blank">Blog</a>
+				  </li>
+
+				  <li>
+					<a href="{% url 'contact' %}">contact</a>
+				  </li>
+				
+		  
+				  <li>
+					<a href="#">Library</a>
+					<ul>
+					  <li>
+						<a href="http://scholar.solusi.ac.zw/" target="_blank">Institutional Repository</a>
+					  </li>
+					  <li>
+						<a href="{% url 'studentlib' %}">e-Resources</a>
+					  </li>
+					  <li>
+						<a href="https://koha.baobab-ebooks.com//" target="_blank">e-Library</a>
+					  </li>
+					  <li>
+						<a href="http://lib.solusi.ac.zw/" target="_blank">OPAC</a>
+						
+					  </li>
+					  <li>
+						<a href="https://www.ellengwhitetruth.com/free-resources/egw-books" target="_blank">E.G.White Resources</a>
+					  </li>
+					</ul>
+				  </li>
+		  
+				  <li>
+					<a href="#">Online Services</a>
+					<ul>
+					  <li>
+						<a href="https://sis.solusi.ac.zw/" target="_blank" >Online Registration</a>
+					  </li>
+					  <li>
+						<a href="https://www.topup.co.zw/pay-bill/solusi-university" target="_blank">Online Fees Payment</a>
+					  </li>
+					  <li>
+						<a href="https://www.paynow.co.zw/Payment/BillPaymentLink/?q=aWQ9MjM1NCZhbW91bnQ9MC4wMCZhbW91bnRfcXVhbnRpdHk9MC4wMCZmMT0mbD0w" target="_blank">Other Fees Payment</a>
+					  </li>
+					  <li>
+						<a href="https://moodle.solusi.ac.zw/" target="_blank">Elearning</a>
+						
+					  </li>
+					  <li>
+						<a href="https://sis.solusi.ac.zw/" target="_blank">Edurole</a>
+					  </li>
+
+
+					  <li>
+						<a href="https://www.solusi.ac.zw/the-orb/" target="_blank">The Orb</a>
+					  </li>
+
+
+					  <li>
+						<a href="https://mail.google.com/mail/u/0/" target="_blank">Email</a>
+					  </li>
+
+					  <li>
+						<a href="https://www.solusi.ac.zw/student-handbook/" target="_blank">Student Handbook</a>
+					  </li>
+
+					  <li>
+						<a href="https://www.solusi.ac.zw/university-events/" target="_blank">University Events</a>
+					  </li>
+					</ul>
+				  </li>
+					  <li>
+					<a href="#">Faculties</a>
+					<ul>
+					  <li>
+						<a href="{% url 'agric' %}">Agriculture, Science & Technology</a>
+					  </li>
+					  <li>
+						<a href="{% url 'educat' %}">Education, Humanities</a>
+					  </li>
+
+					  <li>
+						<a href="{% url 'healt' %}">Health Professions</a>
+					  </li>
+					  <li>
+						<a href="{% url 'commerce' %}">Commerce</a>
+					  </li>
+					  <li>
+						<a href="{% url 'theol' %}">Theology & Chaplaincy</a>
+					  </li>
+					 
+					  <li>
+						<a href="{% url 'graduation' %}">Graduate Studies & Research Development</a>
+					  </li>
+
+					</ul>
+				  </li>
+					   <li>
+					<a href="#">Admission</a>
+					<ul>
+					 
+					  <li>
+						<a href="#">Under Graduate</a>
+						<ul>
+						 
+						  <li>
+							<a href="#">Agriculture, Science & Technology</a>
+							<ul>
+							  <li>
+								<a href="{% url 'agribusiness' %}">Bachelor of Science Honours in Agribusiness Entrepreneurship & Management</a>
+							  </li>
+							  <li>
+								<a href="{% url 'clothing' %}"> Bachelor of Science Honours in Clothing Fashion Desig</a>
+							  </li>
+
+							  <li>
+								<a href="{% url 'science' %}">Bachelor of Science Honours in Environmental Science</a>
+							  </li>
+							  <li>
+								<a href="{% url 'matnum' %}">Bachelor of Science Honours in Mathematics</a>
+							  </li>
+							  <li>
+								<a href="{% url 'nutrition' %}">Bachelor of Science Honours in Nutrition Science</a>
+							  </li>
+							 
+							  <li>
+								<a href="{% url 'health' %}">Bachelor of Science Honours in Environmental Health</a>
+							  </li>
+							  <li>
+								<a href="{% url 'nursing' %}">Bachelor of Science Honours in Nursing</a>
+							  </li>
+							 
+							</ul>
+						  </li>
+						  
+
+						  <li>
+							<a href="#">Commerce</a>
+							<ul>
+							  <li>
+								<a href="{% url 'inAccounts' %}">Bachelor of Commerce Honours in Accounting</a>
+							  </li>
+							 
+
+							  <li>
+								<a href="{% url 'infosys' %}">Bachelor of Science Honours in Information Systems</a>
+							  </li>
+							  <li>
+								<a href="{% url 'infinance' %}">Bachelor of Commerce Honours in Finance</a>
+							  </li>
+
+							  <li>
+								<a href="{% url 'inmarketing' %}">Bachelor of Commerce Honours in Marketing</a>
+							  </li>
+							  <li>
+								<a href="{% url 'inmanagement' %}">Bachelor of Commerce Honours in Business Management</a>
+							  </li>
+							</ul>
+						  </li>
+						  
+						  <li>
+							<a href="#">Theology and Chaplaincy</a>
+							<ul>
+							  <li>
+								<a href="{% url 'theology' %}">Bachelor of Arts Honours in Theology</a>
+							  </li>
+							 
+
+							</ul>
+						  </li>
+
+						  <li>
+							<a href="{% url 'education' %}">Education and Humanities</a>
+							<!--<ul>
+							  <li>
+								<a href="#">Bachelor of Education Honours in Agriculture</a>
+							  </li>
+							 
+
+							  <li>
+								<a href="#">Bachelor of Science Education Honours in Biology</a>
+							  </li>
+							 
+							  <li>
+								<a href="#">Bachelor of Education Honours in Business Studies</a>
+							  </li>
+
+							  <li>
+								<a href="#">Bachelor of Science Honours in Clothing Fashion Design</a>
+							  </li>
+							  <li>
+								<a href="#">Bachelor of Education Honours in English</a>
+							  </li>
+							  <li>
+								<a href="#">Bachelor of Science Education Honours in Mathematics</a>
+							  </li>
+							  <li>
+								<a href="#">Bachelor of Education Honours in Family & Religious Studies</a>
+							  </li>
+							  <li>
+								<a href="#">Bachelor of Education Honours in Early Childhood Development</a>
+							  </li>
+							  <li>
+								<a href="#">Bachelor of Arts with Education Honours in English</a>
+							  </li>
+
+							  <li>
+								<a href="#">Bachelor of Arts with Education Honours in History</a>
+							  </li>
+							  <li>
+								<a href="#">Bachelor of Arts with Education Honours in Religious Studies</a>
+							  </li>
+							  <li>
+								<a href="#">Diploma in Early Childhood Development</a>
+							  </li>
+
+							  <li>
+								<a href="#">Bachelor of Arts Honours in English & Communication</a>
+							  </li>
+							  <li>
+								<a href="#">Bachelor of Arts Special Honours in Literature in English></a>
+							  </li>
+							  <li>
+								<a href="#">Bachelor of Arts Honours in Peace & Security Studies</a>
+							  </li>
+							  <li>
+								<a href="#">Bachelor of Arts Honours in History</a>
+							  </li>
+							  <li>
+								<a href="#">Bachelor of Arts Honours in Religious Studies</a>
+							  </li>
+							 
+							</ul>-->
+						  </li>
+						</ul>
+					  </li>
+					 
+					  <li>
+						<a href="#">Post Graduate</a>
+						<ul>
+						 <li>
+							<a href="{% url 'graduation' %}">MBA</a>
+							
+						  </li>
+						  <li>
+							<a href="{% url 'graduation' %}">MEd Educational Leadership</a>
+							
+						  </li>
+						  <li>
+							<a href="{% url 'graduation' %}">MSc Fashion Design</a>
+							
+						  </li>
+						  <li>
+							<a href="{% url 'graduation' %}">MSc Food Science and Nutrition</a>
+							
+						  </li>
+						  <li>
+							<a href="{% url 'graduation' %}">Master in Theology</a>
+							
+						  </li>
+						</ul>
+					  </li>
+					</ul>
+				  </li>
+				  
+				  <li>
+					<a href="#">Our story</a>
+					<ul>
+					 
+					  <li>
+						<a href="{% url 'about' %}">About Us</a>
+						
+					  </li>
+					 
+					  <li>
+						<a href="{% url 'admin' %}">Administrators</a>
+					
+					  </li>
+					</ul>
+				  </li>
+
+
+				  <li>
+					<a  href="{% url 'index' %}">Home</a>
+				  </li>
+				</ul>
+			  </nav>
+		</section>
+
+	</header>
+{% block content %}
+
+   
+
+   {% endblock %}
+  
+	<!-- //more -->
+<!--footer-->
+<footer>
+	<div class="container py-md-4 mt-md-3">
+		<div class="row footer-top-w3layouts-agile py-5">
+			<div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+				<div class="footer-title">
+					<h3><span>About </span>Us</h3>
+				</div>
+				<div class="footer-text">
+					<p>
+						Solusi University, located 50 kilometres west of Bulawayo, Zimbabwe, is a co-educational institution, which was founded in 1894 as one of the first of the hundreds of Seventh-day Adventist mission stations. It was named after Chief Soluswe, near whose home the Mission was founded.</p>
+
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+				<div class="footer-title">
+					<h3><span>Our </span>Library</h3>
+				</div>
+				<ul class="footer_grid_list">
+				<li><i class="fa fa-arrow-right" aria-hidden="true"></i>
+					<a href="#" data-toggle="modal" data-target="#myModal">Ralph Watts Library</a>
+				</li>
+			
+			</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+				<div class="footer-title">
+					<h3><span>Our </span>contact Infor</h3>
+				</div>
+				<ul class="contact-form">
+					<li><i class="fa fa-map-marker"></i>
+					  <h6><strong>Address:</strong> Solusi University, P.O. Solusi, Bulawayo </h6>
+					</li>
+					<li><i class="fa fa-envelope"></i>
+					  <h6><strong>Mail Us:</strong> <a href="#">records@solusi.ac.zw</a></h6>
+					</li>
+					<li><i class="fa fa-phone"></i>
+					  <h6><strong>Phone:</strong> +263 292 887457 </h6>
+					</li>
+					<li><i class="fa fa-wechat"></i>
+					  <h6><strong>Website:</strong> <a href="#"> www.solusi.ac.zw
+				  </ul>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+				<div class="footer-title">
+					<h3><span>Quick </span>Links</h3>
+				</div>
+				<nav class="border-line">
+					<ul class="nav flex-column">
+					   <li>
+						  <a href="{% url 'index' %}">Home </a>
+					   </li>
+					   <li>
+						  <a href="{% url 'about' %}">About</a>
+					   </li>
+					
+					   <li>
+						  <a href="{% url 'alumini' %}">Alumini</a>
+					   </li>
+					   <li>
+						  <a href="{% url 'contact' %}">Contact</a>
+					   </li>
+					</ul>
+				 </nav>
+
+			</div>
+			
+		</div>
+	</div>
+</footer>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h4 class="modal-title">Ralph Watts Library</h4>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+			   <div class="agileits-w3layouts-info">
+				  <img src="{% static 'images/g6.jpg' %}" class="img-fluid" alt="" />
+				  <p>
+					  
+	  The Solusi University—Ralph Watts Library has a primary responsibility to support
+	  Instructional, research and spiritual programs of the University—through the acquisition,
+	  organization, maintenance, and preservation/conservation of appropriate print and non-print
+	  electronic and archival information resources and the retrieval/dissemination of the resources.
+	   </p>
+			  </div>
+		  </div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+<!-- //Modal -->
+<!-- js-->
+	<script src="{% static 'js/jquery-2.2.3.min.js' %}"></script>
+<!-- js-->
+<!-- clients -->
+	<script type="text/javascript">
+					$(window).load(function() {
+						$("#flexiselDemo1").flexisel({
+							visibleItems: 2,
+							animationSpeed: 1000,
+							autoPlay:false,
+							autoPlaySpeed: 2500,    		
+							pauseOnHover: true,
+							enableResponsiveBreakpoints: true,
+							responsiveBreakpoints: { 
+								portrait: { 
+									changePoint:480,
+									visibleItems: 1
+								}, 
+								landscape: { 
+									changePoint:640,
+									visibleItems:1
+								},
+								tablet: { 
+									changePoint:768,
+									visibleItems: 1
+								}
+							}
+						});
+						
+					});
+			</script>
+			<script type="text/javascript" src="{% static 'js/jquery.flexisel.js' %}"></script>
+	<!-- //clients -->
+<!-- stats -->
+	<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+	<script src="{% static 'js/jquery.countup.js' %}"></script>
+		<script>
+			$('.counter').countUp();
+		</script>
+<!-- //stats -->
+	
+	<!-- Bootstrap Core JavaScript -->
+	<script src="{% static 'js/bootstrap.js' %}">
+	</script>
+	<!-- //Bootstrap Core JavaScript -->
+
+
+    <!--second template-->
+<script type="text/javascript" src="{% static 'cosmic/js/jquery.min.js' %}"></script>
+<!--Boostrap-Jquery-->
+<script type="text/javascript" src="{% static 'cosmic/js/bootstrap.js' %}"></script>
+<!--Preetyphoto-Jquery-->
+<script type="text/javascript" src="{% static 'cosmic/js/jquery.prettyPhoto.js' %}"></script>
+<!--NiceScroll-Jquery-->
+<script type="text/javascript" src="{% static 'cosmic/js/jquery.nicescroll.js' %}"></script>
+<script type="text/javascript" src="{% static 'cosmic/js/waypoints.min.js' %}"></script>
+<!--Isotopes-->
+<script type="text/javascript" src="{% static 'cosmic/js/jquery.isotope.js' %}"></script>
+<!--Wow-Jquery-->
+<script type="text/javascript" src="{% static 'cosmic/js/wow.js' %}"></script>
+<!--Count-Jquey-->
+<script type="text/javascript" src="{% static 'cosmic/js/jquery.countTo.js' %}"></script>
+<script type="text/javascript" src="{% static 'cosmic/js/jquery.inview.min.js' %}"></script>
+<!--Owl-Crousels-Jqury-->
+<script type="text/javascript" src="{% static 'cosmic/js/owl.carousel.js' %}"></script>
+<!--Main-Scripts-->
+<script type="text/javascript" src="{% static 'cosmic/js/script.js' %}"></script>
+</body>
+</html>
+
+<!-- Hosting24 Analytics Code -->
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
+</body>
+</html>

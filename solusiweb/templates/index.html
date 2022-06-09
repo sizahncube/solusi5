@@ -1,0 +1,369 @@
+
+{% extends 'base1.html' %}
+{% load static %}
+
+{% block content %}
+   
+<style>
+  .animate-charcter
+  {
+     text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 70px;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+  
+  
+  </style>
+
+<section class="welcome py-5">
+  <div class="container py-md-4 mt-md-3">
+    <h6 class="heading-agileinfo text-center">Latest  <span>Updates</span></h6>
+  <div class="row about-tp mt-md-5 pt-5">
+          <div class="col-lg-6 welcome-left" style="border: 1rem solid;" >
+           <br> 
+            <div class="container" style="border: solid;">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h3 class="animate-charcter"> We offer Masters in Theology</h3>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="container" style="border: solid;">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h3 class="animate-charcter"> We offer web development as a short course</h3>
+                </div>
+              </div>
+            </div>
+            <br>
+            </div>
+          <div class="col-lg-6 welcome-right" style="border: 1rem solid;">
+<br>
+            <div class="welcome-right-top">
+                <video width="400" controls>
+                  <source src="mov_bbb.mp4" type="video/mp4">
+                  <source src="mov_bbb.ogg" type="video/ogg">
+                  Your browser does not support HTML video.
+                </video>
+                
+                <p class="text-center" style="color: #cc3333;">
+                  Take a Virtual Tour 
+                 </p> 
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<div class="container py-md-4 mt-md-3">
+    <h3 class="heading-agileinfo">Our  <span>Achievements</span></h3>
+    <span class="w3-line black"></span>	
+    <div class="row inner_w3l_agile_grids-1 pt-md-5 mt-4">
+        <div class="col-lg-3 col-sm-6 w3layouts_stats_left w3_counter_grid">
+            <p class="counter">1994</p>
+            <h3>Year of Accreditation</h3>
+        </div>
+        <div class="col-lg-3 col-sm-6 w3layouts_stats_left w3_counter_grid1">
+            <p class="counter">20265</p>
+            <h3>Graduates</h3>
+        </div>
+        <div class="col-lg-3 col-sm-6 w3layouts_stats_left w3_counter_grid2">
+            <p class="counter">125</p>
+            <h3>Certified Staff</h3>
+        </div>
+        <div class="col-lg-3 col-sm-6 w3layouts_stats_left w3_counter_grid2">
+            <p class="counter">0</p>
+            <h3>Students</h3>
+        </div>
+    </div>
+</div>	
+</section>
+<br>
+<!-- //stats -->
+<!-- about-grid  -->
+<section class="w3l-abt">
+<div class="container">
+    <div class="row about-grid">
+        <div class="col-lg-4 about-grid-lft py-md-5 py-3">
+            <div class="row about-bottom-right mt-3 py-2">
+                <div class="col-sm-3 abouthome-grid">
+                    <span class="hi-icon hi-icon-archive fa fa-check"> </span>
+                </div>
+                <div class="col-sm-9 about-bottom1">
+                    <h5>vision</h5>
+                    <p>To Attain Excellence in All Aspects of University Life</p>
+                </div>
+                    
+            </div>
+            <div class="row about-bottom-right mt-3">
+                <div class="col-sm-3 abouthome-grid">
+                    <span class="hi-icon hi-icon-archive  fa fa-book"> </span>
+                </div>
+                <div class="col-sm-9 about-bottom1">
+                    <h5>Values</h5>
+                    <p style="text-align: justify; text-justify: inter-word;"> <span style="color: #cc3333;">Christ Likeness</span>
+                        - Holiness,
+                        Love,
+                         Integrity,
+                         Cleanliness,
+                         Justice,
+                        Service quality,
+                        Kindness</p>
+                        <p style="text-align: justify; text-justify: inter-word;"> <span style="color: #cc3333;">Ten Commandments</span>
+                            - Love for God,
+                            Love for fellowmen,
+                            Creation</p>
+                            <p style="text-align: justify; text-justify: inter-word;"> <span style="color: #cc3333;">One Another-ness</span>
+                                - Love for one another,
+                                - Respect for one another</p>
+                </div>
+                    
+            </div>
+        </div>	
+        <div class="col-lg-4 w3l_about-img">
+            <!--            <img src="{% static 'images/grads.png' %}" alt="" class="img-section4 img-fluid">-->
+        </div>
+        <div class="col-lg-4 about-grid-rgt py-md-5">
+            <div class="row about-bottom-right mt-3 py-2">
+                
+                <div class="col-sm-9 about-bottom1 text-right">
+                    <h5>Mission</h5>
+                    <p style="text-align: justify; text-justify: inter-word;">Solusi University exists to provide quality wholistic and transformational education based on the Seventh-day Adventist church philosophy of Education in order to equip students for useful service to God and the community, and to enjoy productive lives</p>
+                </div>
+                <div class="col-sm-3 abouthome-grid">
+                    <span class="hi-icon hi-icon-archive fa fa-check"> </span>
+                </div>
+                    
+            </div>
+            
+        </div>
+    </div>
+</div>
+</section>
+<!-- about-grid  -->
+
+<section class="what_you w3-about py-5">
+    <div class="container py-md-4 mt-md-3">
+        <h2 class="heading-agileinfo">Our  <span>Programmes</span></h2>
+        <span class="w3-line black"></span>
+        <div class="row about-info-grids mt-md-5 pt-5">
+            <div class="col-md-4  media service-box">
+                <div class="pull-left"> <i class="fa fa-line-chart"></i> </div>
+                <div class="media-body">
+                  <h5 class="media-heading">Information Systems</h5>
+                  <p>A computer information systems degree applies practical knowledge and methods to a broad base of computer information technologies to meet the digital information needs of organizations</p>
+                </div>
+              </div>
+                <div class="col-md-4 media service-box">
+                  <div class="pull-left"> <i class="fa fa-cubes"></i> </div>
+                  <div class="media-body">
+                    <h5 class="media-heading">Finance</h5>
+                    <p>A finance degree includes coursework in accounting, statistics, economics, and business law, opening doors to exciting and lucrative career paths.</p>
+                  </div>
+                </div>
+              
+        <div class="col-md-4 media service-box">
+            <div class="pull-left"> <i class="fa fa-pie-chart"></i> </div>
+            <div class="media-body">
+            <h5 class="media-heading">Marketing</h5>
+            <p>A marketing degree prepares graduates for roles in marketing, advertising, public relations, and sales. Marketing majors work for marketing firms, advertising agencies, and public relations agencies.</p>
+            </div>
+        </div>
+        </div>
+        <div class="bord"></div>
+        <div class="row about-info-grids">
+            <div class="col-md-4 media service-box">
+                <div class="pull-left"> <i class="fa fa-bar-chart"></i> </div>
+                <div class="media-body">
+                  <h5 class="media-heading">Agribusiness</h5>
+                  <p>This degree provides students with a solid foundation in business and agricultural knowledge and qualifications that allow them to specialise in agribusiness ...</p>
+                </div>
+              </div>
+              <div class="col-md-4  media service-box">
+                <div class="pull-left"> <i class="fa fa-language"></i> </div>
+                <div class="media-body">
+                  <h5 class="media-heading">English and Communication</h5>
+                  <p>The Bachelor of Arts degree in English and Communication Studies is a four-year program at the undergraduate level that offers students the opportunity to engage in the study of English and communications.</p>
+                </div>
+              </div>
+              <div class="col-md-4 media service-box">
+                <div class="pull-left"> <i class="fa fa-bullseye"></i> </div>
+                <div class="media-body">
+                  <h5 class="media-heading">Master in Theology</h5>
+                  <p>A theology degree gives you an education in religious ethics, morality, history, philosophy, and literature.</p>
+                </div>
+              </div>
+        </div>
+</div>
+</section>
+<!-- //services -->
+<!-- testimonials -->
+
+<!-- //testimonials -->
+<section class="index">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9 w3layouts_getin_info">
+			
+			</div>
+						
+		</div>
+	</div>
+</section>
+<!-- more -->
+<section class="about-w3ls py-5">
+<div class="container pt-xl-5 pb-lg-3">
+<h2 class="heading-agileinfo">Why <span> Use Us</span></h2>
+    <div class="row mt-md-5 pt-4">
+        <div class="col-lg-6 section-4">
+            <div class="agil_mor">
+                <div class="agileits-abt-grids mb-4">
+                    
+                    <p class="sec-4"><span style="color: #cc3333; text-align: justify; text-justify: inter-word;">1. International Networks</span> Our courses open doors to rewarding and challenging careers in health, science, arts, theology and business. You’ll benefit from our international 
+                        environment where students gain cultural perspectives and develop international networks 
+                    </p>
+                </div>
+                <div class="agileits-abt-grids mb-4">
+                    
+                    <p class="sec-4"><span style="color: #cc3333; text-align: justify; text-justify: inter-word;">2. Student Contact Hours </span>
+                        Solusi’s transformational education system and leadership training includes mandatory class attendance, prescribed level of
+                         teacher student contact and participation in group learning environment.                    </p>
+                </div>
+                <div class="agileits-abt-grids mb-4">
+                    
+                    <p class="sec-4"><span style="color: #cc3333; text-align: justify; text-justify: inter-word;">3. Development of self discipline </span>
+                        Self discipline across all critical spheres of life including dress, 
+                        is a hallmark of Solusi University’s transformational and redemptive education system.                    </p>
+                </div>
+                <div class="agileits-abt-grids">
+                    
+                    <p class="sec-4"><span style="color: #cc3333; text-align: justify; text-justify: inter-word;">4. Superb location</span>
+                        Our out of town location provides an excellent learning environment on a 
+                        campus free from corruption, drug abuse and sexual harassment 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <img src="{% static 'images/study3.png' %}" alt="" class="img-section4 img-fluid">
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+
+
+<script src="{% static 'vedio/jquery-3.2.0.slim.min.js' %}"></script>
+<script>
+var ha = ( $('#videoBox').offset().top + $('#videoBox').height() );
+
+$(window).scroll(function(){
+
+	if ( $(window).scrollTop() > ha + 500 ) {
+    $('#videoBox').css('bottom','0');
+	} else if ( $(window).scrollTop() < ha + 200) {
+    $('#videoBox').removeClass('out').addClass('in');
+	} else {
+  	$('#videoBox').removeClass('in').addClass('out');
+    $('#videoBox').css('bottom','-500px');
+  };
+
+});
+</script>
+
+<style>
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+.content-main-box{
+  width:90%;
+  height:auto;
+  margin:auto;
+  max-width:1200px;
+}
+
+.content-box {
+	width:100%;
+	height:auto;
+	margin:auto;
+  display: block;
+  position: static;
+  overflow: hidden;
+}
+.content-box h1{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:30px;
+  text-align:center;
+  color:#F7403C;
+  padding-top:20px;
+  text-transform:uppercase;
+}
+.content-box h1 span{
+	 color:#FE9B1A;
+}
+.content-box p{
+ font-family:Arial, Helvetica, sans-serif;
+  font-size:18px;
+  text-align:justify;
+  color:#333;
+  line-height:26px;
+  padding-top:20px;
+}
+#videoBox {
+	width:50%;
+	height:auto;
+	margin:auto;
+  border: 10px solid #212223;
+  transition: 0.5s;
+}
+
+
+video {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+#videoBox.in { animation: ac 1s; }
+
+#videoBox.out {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  z-index: 999;
+  animation: an 0.5s;
+}
+
+</style>
+
+
+
+{% endblock %}

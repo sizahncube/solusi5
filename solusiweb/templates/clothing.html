@@ -1,0 +1,177 @@
+
+
+{% extends 'base.html' %}
+
+{% load static %}
+{% block content %}
+
+<section class="banner-1">
+</section>
+
+<section class="about-w3ls py-5">
+    <div class="container pt-xl-5 pb-lg-3">
+    <h2 class="heading-agileinfo">Programme<span> Requirements</span></h2>
+      <div class="row mt-md-5 pt-4">
+        <div class="col-lg-8 ">
+          <div class="agil_mor">
+           
+     
+        <div class="agileits-abt-grids ">
+            <button id="btnMoreLess" type="button" style="font-size: 24px; color: #cc3333" onclick="Read()">
+                <i id="iMore" class="fa fa-chevron-circle-right"></i>
+                &nbsp;&nbsp;<span id="lblTexte">Clothing</span>
+            </button>
+            <p style="padding: 10px !important;">
+                <b>Normal Entry:</b> Five “O” Levels including English, two A’ Level passes or their assessed equivalent<span id="dot">...</span>
+            </p>
+            <p id="mor" style="padding: 10px !important; display: none;"><span style="font-size: small; color: #000;">
+                <b>Special Entry:</b> National Certificate (NC), National Diploma (ND) and Higher National Diploma (HND) in Clothing and Textiles, Fashion Designing and other related areas from an accredited and recognized institution.<br>
+            <b>Mature Entry:</b> 25 years and at least 5 years of experience in a relevant field.
+                Five “O” level subjects, including English Language and a science.<br>
+    </span>
+   
+    <br>
+    <a href="{% static 'images/Application.docx' %}"><button btn class="btn btn-secondary" style="background-color: #cc3333;"><span style="color: black;">Apply now</span></button></a>
+    
+            </p>
+    </div>
+
+ 
+<br>
+
+<div class="agileits-abt-grids ">
+<button id="btnMoreLess" type="button" style="font-size: 24px; color: #cc3333">
+<i  class="fa fa-chevron-circle-right"></i>
+&nbsp;&nbsp;<span>CAREER OPPORTUNITIES</span>
+</button>
+
+<p>
+A graduate from department may be employed in various departments such as:<br>
+statisticians<br>
+engineer<br>
+Actuarial Analyst<br>
+Quantity Surveyor<br>
+School Teacher<br>
+Family and Consumer Scientists<br>
+Food Scientists<br>
+Nutritionists</p>
+</div>
+
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+
+
+
+<style type="text/css">
+    btn {
+        background: #cc3333;
+        border: none;
+        padding: 10px !important;
+    }
+
+
+
+</style>
+
+
+
+<script type="text/javascript">
+    function ReadMoreLess() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var iMoreLess = document.getElementById("iMoreLess");
+        var lblText = document.getElementById("lblText");
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            iMoreLess.className = "fa fa-chevron-circle-right";
+            lblText.innerHTML = "Agribusiness";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            iMoreLess.className = "fa fa-chevron-circle-down";
+            lblText.innerHTML = "Read Less";
+            moreText.style.display = "inline";
+        }
+    }
+
+    function Read() {
+        var dott = document.getElementById("dot");
+        var moreTex = document.getElementById("mor");
+        var iMoreLes = document.getElementById("iMore");
+        var lblTex = document.getElementById("lblTexte");
+        if (dott.style.display === "none") {
+            dott.style.display = "inline";
+            iMoreLes.className = "fa fa-chevron-circle-right";
+            lblTex.innerHTML = "Clothing";
+            moreTex.style.display = "none";
+        } else {
+            dott.style.display = "none";
+            iMoreLes.className = "fa fa-chevron-circle-down";
+            lblTex.innerHTML = "Read Less";
+            moreTex.style.display = "inline";
+        }
+    }
+
+
+    function Function() {
+        var doti = document.getElementById("doties");
+        var moreT = document.getElementById("moree");
+        var iMoreL = document.getElementById("iMoo");
+        var lblT = document.getElementById("lbl");
+        if (doti.style.display === "none") {
+            doti.style.display = "inline";
+            iMoreL.className = "fa fa-chevron-circle-right";
+            lblT.innerHTML = "Mathematics";
+            moreT.style.display = "none";
+        } else {
+            doti.style.display = "none";
+            iMoreL.className = "fa fa-chevron-circle-down";
+            lblT.innerHTML = "Read Less";
+            moreT.style.display = "inline";
+        }
+    }
+
+
+    function mat() {
+        var sport = document.getElementById("dotie");
+        var morez = document.getElementById("mores");
+        var iles = document.getElementById("iless");
+        var lblxt = document.getElementById("lblext");
+        if (sport.style.display === "none") {
+            sport.style.display = "inline";
+            iles.className = "fa fa-chevron-circle-right";
+            lblxt.innerHTML = "Nutrition";
+            morez.style.display = "none";
+        } else {
+            sport.style.display = "none";
+            iles.className = "fa fa-chevron-circle-down";
+            lblxt.innerHTML = "Read Less";
+            morez.style.display = "inline";
+        }
+    }
+
+    function science() {
+        var spot = document.getElementById("doty");
+        var moerwords = document.getElementById("many");
+        var lesswords = document.getElementById("plus");
+        var lblword = document.getElementById("lblt");
+        if (spot.style.display === "none") {
+            spot.style.display = "inline";
+            lesswords.className = "fa fa-chevron-circle-right";
+            lblword.innerHTML = "Environmental Science";
+            moerwords.style.display = "none";
+        } else {
+            spot.style.display = "none";
+            lesswords.className = "fa fa-chevron-circle-down";
+            lblword.innerHTML = "Read Less";
+            moerwords.style.display = "inline";
+        }
+    }
+
+</script>
+{% endblock %}

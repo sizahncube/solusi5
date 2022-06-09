@@ -1,0 +1,351 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block content %}
+
+<section class="banner-1">
+</section>
+
+<section class="about-w3ls py-5">
+  <div class="container pt-xl-5 pb-lg-3">
+  <h2 class="heading-agileinfo">Faculty of <span> Commerce</span></h2>
+    <div class="row mt-md-5 pt-4">
+      <div class="col-lg-6 section-4">
+        <div class="agil_mor">
+          <div class="agileits-abt-grids mb-4">
+            
+            <p class="sec-4"><span style="color: #cc3333;">PHILOSOPHY </span>
+              The Faculty of Commerce is committed to prepare students that will “add value” to organizations facing emerging changes, challenges and trends in the business world. It is determined to equip students with appropriate managerial competences and analytical skills suitable for modern technology environment which enables them to make informed decisions. The faculty integrates business ethics with Christian values in all activities.
+            </p>
+          </div>
+        
+          <div class="agileits-abt-grids mb-4">
+            
+            <p class="sec-4"><span style="color: #cc3333;">MISSION STATEMENT</span>
+              The Faculty of Commerce exists to provide quality, holistic and transformational academic delivery, research, mentoring and building sustainable relationships with students and industry based on the Seventh-day Adventist church philosophy of Education in order to equip students for useful service to God and the community, and to enjoy productive lives.
+            	</p>
+          </div>
+          <div class="agileits-abt-grids mb-4">
+            
+            <p class="sec-4"><span style="color: #cc3333;">DEPARTMENTS AND DEGREES </span><br>
+             <b>A. Department of Accounting</b> <br>
+              • Bachelor of Commerce Honours in Accounting<br>
+              <b>B. Department of Computer and Management Information Systems</b><br>
+              • Bachelor of Science Honours in Information Systems<br>
+              <b>C. Department of Finance and Marketing</b><br>
+              • Bachelor of Commerce Honours in Finance<br>
+              • Bachelor of Commerce Honours in Marketing<br>
+              <b>D. Department of Management</b> <br>
+              • Bachelor of Commerce Honours in Business Management	<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h5 style="text-align: center;">Dean</h5>
+<br>
+<div style="text-align: center;">
+  <img src="{% static 'images/dean baidya.PNG' %}" alt="" class="img-section4 img-fluid">
+
+</div>
+      <br>
+      <br>
+        <h5 style="text-align: center;">Prof. Barnold Baidya, PhD</h5>
+
+        <br>
+					<p>
+						<span ><strong>Dr. lvonne Ndlovu, PhD</strong></span>Chair person in Accounting <br>
+						<span><strong>Siduduziwe Malufu, MCom  </strong></span>Chair person in Finance & Marketing <br>
+						<span><strong>Ntandoyenkosi Tshuma, MCom</strong></span>Coordinator in Marketing<br>
+	
+					  </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="comm">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-9 w3layouts_getin_info">
+              <h3>We Make the Best Institute</h3>
+          </div>
+    
+      </div>
+  </div>
+  </section>
+
+
+  <section class="about-w3ls py-5">
+    <div class="container pt-xl-5 pb-lg-3">
+			<h2 class="heading-agileinfo">Programme<span> Requirements</span></h2>
+      <div class="row mt-md-5 pt-4">
+      <div class="col-lg-8 ">
+        <div class="agil_mor">
+        <div class="agileits-abt-grids ">
+          <button id="btnMoreLess" type="button" style="font-size: 24px; color: #cc3333" onclick="ReadMoreLess()">
+            <i id="iMoreLess" class="fa fa-chevron-circle-right"></i>
+            &nbsp;&nbsp;<span id="lblText"> Accounting</span>
+          </button>
+          <p style="padding: 10px !important;">
+            <b>Normal Entry:</b> Five ‘O’ Levels including English and Mathematics, two A’ Level passes in Commercial subjects<span id="dots">...</span>
+          </p>
+          <p id="more" style="padding: 10px !important; display: none;"><span style="font-size: small; color: #000;">Biology, Agriculture, Chemistry, Physics, Food Science, Geography, Accounts, Management or Business.<br>
+            <b>Special Entry:</b> National Certificate (NC), National Diploma (ND), Higher National Diploma (HND) in Accounting from recognized institutions or equivalent.<br>
+          <b>Mature Entry:</b> Applicants should be 25 years of age and at least 5 years of experience in the relevant field.
+
+          Five “O” level subjects, including English Language and Mathematics
+          
+          Other (indicate).<br>
+      
+          </span>
+          </p>
+      </div>
+     
+      <div class="agileits-abt-grids ">
+        <button id="btnMoreLess" type="button" style="font-size: 24px; color: #cc3333" onclick="Read()">
+          <i id="iMore" class="fa fa-chevron-circle-right"></i>
+          &nbsp;&nbsp;<span id="lblTexte">Information Systems</span>
+        </button>
+        <p style="padding: 10px !important;">
+          <b>Normal Entry:</b> Five O Levels including English and Mathematics  and a minimum of 2 A’ Level passes in Mathematics AND Computer Science OR any other relevant Science or Commercial subject<span id="dot">...</span>
+        </p>
+        <p id="mor" style="padding: 10px !important; display: none;"><span style="font-size: small; color: #000;">
+          <b>Special Entry:</b> Special entry may be granted to applicants with a National Certificate, National Diploma or Higher National Diploma in Computer Science or any related field from a recognized institution.<br>
+        <b>Mature Entry:</b> Should be at least 23 years old AND should have at least 2 years relevant industrial experience.<br>
+    </span>
+        </p>
+    </div>
+  
+    <div class="agileits-abt-grids ">
+      <button id="btnMoreLess" type="button" style="font-size: 24px; color: #cc3333" onclick="Function()">
+        <i id="iMoo" class="fa fa-chevron-circle-right"></i>
+        &nbsp;&nbsp;<span id="lbl">Finance</span>
+      </button>
+      <p style="padding: 10px !important;">
+        <b>Normal Entry:</b> Five “O’Levels including English and Mathematics, and 2 ‘A’ Level passes in Commercial subjects.<span id="doties">...</span><br>
+      </p>
+      <p id="moree" style="padding: 10px !important; display: none;"><span style="font-size: small; color: #000;">National Foundation Certificates including Mathematics and English Language OR National Certificate.
+        <b>Special Entry:</b> National Certificate (NC), National Diploma (ND) or Higher National Diploma (HND) in Finance from recognized institution.<br>
+      <b>Mature Entry:</b> Applicant should be 25 years of age and above, and 5 years of experience in a relevant field.Five “O” level subjects, including English Language and Mathematics.<br>
+  </span></p>
+  </div>
+  
+  
+  <div class="agileits-abt-grids ">
+    <button id="btnMoreLess" type="button" style="font-size: 24px; color: #cc3333" onclick="mat()">
+      <i id="iless" class="fa fa-chevron-circle-right"></i>
+      &nbsp;&nbsp;<span id="lblext">Marketing</span>
+    </button>
+    <p style="padding: 10px !important;">
+      <b>Normal Entry:</b> Five ‘O’ Levels including English and Mathematics, and two A’ Level passes in Commercial subjects.<span id="dotie">...</span>
+    </p>
+    <p id="mores" style="padding: 10px !important; display: none;"><span style="font-size: small; color: #000;">
+      <b>Special Entry:</b> National Certificate (NC), National Diploma (ND), Higher National Diploma (HND) in Marketing from recognized institutions.<br>
+    <b>Mature Entry:</b>  Applicant should not be less than 25 years and at least 2 years of experience in a relevant field. Five “O” level subjects including English Language and Mathematics.<br>
+</span></p>
+</div>
+  
+<div class="agileits-abt-grids ">
+  <button id="btnMoreLess" type="button" style="font-size: 24px; color: #cc3333" onclick="science()">
+    <i id="plus" class="fa fa-chevron-circle-right"></i>
+    &nbsp;&nbsp;<span id="lblt">Management</span>
+  </button>
+  <p style="padding: 10px !important;">
+    <b>Normal Entry:</b> Five ‘O’ Levels including English and Mathematics, two A’ Level passes in Commercial subjects<span id="doty">...</span>
+  </p>
+  <p id="many" style="padding: 10px !important; display: none;"><span style="font-size: small; color: #000;">Biology, Chemistry, Mathematics and Geography or a relevant National Certificate from an accredited Institution
+    <b>Special Entry:</b> National Certificate (NC), Nationl Diploma (ND) or Higher National Diploma (HND) in Business Studies from recognized institutions.<br>
+  <b>Mature Entry:</b> Applicant should be 25 years of age and at least 2 years of experience in a relevant field.
+5 “O” subjects, including English Language. <br>
+</span></p>
+</div>
+
+
+<div class="agileits-abt-grids ">
+  <button id="btnMoreLess" type="button" style="font-size: 24px; color: #cc3333" onclick="finance()">
+    <i id="pluz" class="fa fa-chevron-circle-right"></i>
+    &nbsp;&nbsp;<span id="lbltt">CAREER OPPORTUNITIES</span>
+  </button>
+  <p style="padding: 10px !important;">
+    <b> A graduate from these programmes may be employed as:</b><span id="dotty">...</span>
+  </p>
+  <p id="man" style="padding: 10px !important; display: none;"><span style="font-size: small; color: #000;">
+    Financial Accountant<br>
+    Tax Accountant<br>
+    Government Accountant<br>
+    Management Accountant<br>
+    Chief Financial Officer<br>
+    Internal/External Auditor<br>
+    Cost-Accountant Manager<br>
+    Finance Director, etc.<br>
+    
+    Software & Hardware Engineer<br>
+    Information Systems Analyst/designer<br>
+    Applications Development programmer<br>
+    Data Administrator<br>
+    Information Systems Manager<br>
+    Information Technology Consultant<br>
+    Finance<br>
+    Financial Planner<br>
+    Financial Analyst<br>
+    Budget Analyst<br>
+    Commercial Real Estate Agents Investment bankers<br>
+    Fund managers<br>
+    Personal financial planners & advisors<br>
+    Credit Analyst<br>
+    Risks specialists<br>
+    Marketing<br>
+    Brand/Product Manager<br>
+    Marketing Manager<br>
+    Sales Manager<br>
+    Event/meeting Planner<br>
+    Business Development Manager<br>
+    Human Resources Manager<br>
+    Risk Manager<br>
+    Project Manager<br>
+    Management Consultant<br>
+    Production Manager
+</span></p>
+</div>
+
+
+        </div>
+      </div>
+       
+      </div>
+    </div>
+    </section>
+
+  
+  
+
+  <style type="text/css">
+    button {
+      background: none !important;
+      border: none;
+      padding: 10px !important;
+    }
+
+  
+
+  </style>
+
+
+
+  <script type="text/javascript">
+    function ReadMoreLess() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var iMoreLess = document.getElementById("iMoreLess");
+      var lblText = document.getElementById("lblText");
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        iMoreLess.className = "fa fa-chevron-circle-right";
+        lblText.innerHTML = "Accounting";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        iMoreLess.className = "fa fa-chevron-circle-down";
+        lblText.innerHTML = "Read Less";
+        moreText.style.display = "inline";
+      }
+    }
+
+    function Read() {
+      var dott = document.getElementById("dot");
+      var moreTex = document.getElementById("mor");
+      var iMoreLes = document.getElementById("iMore");
+      var lblTex = document.getElementById("lblTexte");
+      if (dott.style.display === "none") {
+        dott.style.display = "inline";
+        iMoreLes.className = "fa fa-chevron-circle-right";
+        lblTex.innerHTML = "Information Systems";
+        moreTex.style.display = "none";
+      } else {
+        dott.style.display = "none";
+        iMoreLes.className = "fa fa-chevron-circle-down";
+        lblTex.innerHTML = "Read Less";
+        moreTex.style.display = "inline";
+      }
+    }
+
+
+    function Function() {
+      var doti = document.getElementById("doties");
+      var moreT = document.getElementById("moree");
+      var iMoreL = document.getElementById("iMoo");
+      var lblT = document.getElementById("lbl");
+      if (doti.style.display === "none") {
+        doti.style.display = "inline";
+        iMoreL.className = "fa fa-chevron-circle-right";
+        lblT.innerHTML = "Finance";
+        moreT.style.display = "none";
+      } else {
+        doti.style.display = "none";
+        iMoreL.className = "fa fa-chevron-circle-down";
+        lblT.innerHTML = "Read Less";
+        moreT.style.display = "inline";
+      }
+    }
+
+
+    function mat() {
+      var sport = document.getElementById("dotie");
+      var morez = document.getElementById("mores");
+      var iles = document.getElementById("iless");
+      var lblxt = document.getElementById("lblext");
+      if (sport.style.display === "none") {
+        sport.style.display = "inline";
+        iles.className = "fa fa-chevron-circle-right";
+        lblxt.innerHTML = "Marketing";
+        morez.style.display = "none";
+      } else {
+        sport.style.display = "none";
+        iles.className = "fa fa-chevron-circle-down";
+        lblxt.innerHTML = "Read Less";
+        morez.style.display = "inline";
+      }
+    }
+
+    function science() {
+      var spot = document.getElementById("doty");
+      var moerwords = document.getElementById("many");
+      var lesswords = document.getElementById("plus");
+      var lblword = document.getElementById("lblt");
+      if (spot.style.display === "none") {
+        spot.style.display = "inline";
+        lesswords.className = "fa fa-chevron-circle-right";
+        lblword.innerHTML = "Management";
+        moerwords.style.display = "none";
+      } else {
+        spot.style.display = "none";
+        lesswords.className = "fa fa-chevron-circle-down";
+        lblword.innerHTML = "Read Less";
+        moerwords.style.display = "inline";
+      }
+    }
+
+    function finance() {
+      var spots = document.getElementById("dotty");
+      var moerword = document.getElementById("man");
+      var lessword = document.getElementById("pluz");
+      var lblwords = document.getElementById("lbltt");
+      if (spots.style.display === "none") {
+        spots.style.display = "inline";
+        lessword.className = "fa fa-chevron-circle-right";
+        lblwords.innerHTML = "CAREER OPPORTUNITIES";
+        moerword.style.display = "none";
+      } else {
+        spots.style.display = "none";
+        lessword.className = "fa fa-chevron-circle-down";
+        lblwords.innerHTML = "Read Less";
+        moerword.style.display = "inline";
+      }
+    }
+
+  </script>
+
+
+{% endblock %}
