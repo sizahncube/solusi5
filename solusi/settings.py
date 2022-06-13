@@ -140,12 +140,10 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_URL = 'solusiweb/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-#ROOT = os.path.dirname(BASE_DIR)
+STATIC_URL = '/static/'
+
+
+
 
 
 # Default primary key field type
